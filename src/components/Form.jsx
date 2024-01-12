@@ -20,7 +20,7 @@ export default function Form({ onAddItems }) {
   return (
   <>
     <form className="add-form" onSubmit={handleSubmit}>
-      <h3>What does your pet need today? </h3>
+      <h3>What does your pet need? </h3>
 
       <select
         value={quantity}

@@ -21,7 +21,7 @@ export default function Stats({ items }) {
           {percentage === 100 ? "You're all set! Ready to go with your furry friend"
           :
           `You have ${numItems} items on your pet care list, 
-          and you have already prepared ${numPacked} (${percentage}%)` 
+          you have already arranged ${numPacked} (${percentage}%)` 
           }
         </em>
       </footer>
